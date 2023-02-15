@@ -1,0 +1,8 @@
+@page "/ModelA"
+@using Microsoft.Extensions.Localization
+@using global::ModelA.Localization
+@inject IStringLocalizer<ModelAResource> L
+@{
+}
+<h1>ModelA</h1>
+<p>@L["SamplePageMessage"]</p>
